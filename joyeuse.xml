@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Device Repository -->
+    <project path="device/xiaomi/joyeuse" name="nekoshirro/xdroidOSS-13" remote="github" revision="t-joyeuse"/>
+    <project path="device/xiaomi/sm6250-common" name="nekoshirro/xdroidOSS-13" remote="github" revision="t-sm6250"/>
+
+    <!-- Vendor Repository -->
+    <project path="vendor/xiaomi/joyeuse" name="nekoshirro/xdroidOSS-13" remote="github" revision="v-joyeuse"/>
+    <project path="vendor/xiaomi/sm6250-common" name="nekoshirro/xdroidOSS-13" remote="github" revision="v-sm6250"/>
+    <project path="vendor/xiaomi/joyeuse-miuicamera" name="nekoshirro/vendor_xiaomi_joyeuse-miuicamera" remote="gitlab" revision="12.1"/>
+
+    <!-- Kernel and Toolchain Repository -->
+    <project path="kernel/xiaomi/sm6250" name="nekoshirro/platform_kernel_xiaomi_sm6250" remote="github" revision="main"/>
+    <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master"/>
+
+</manifest>
