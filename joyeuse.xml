@@ -7,7 +7,7 @@
 
     <!-- Vendor Repository -->
     <project path="vendor/xiaomi/joyeuse" name="nekoshirro/xdroidOSS-13" remote="github" revision="v-joyeuse"/>
-    <project path="vendor/xiaomi/sm6250-common" name="nekoshirro/xdroidOSS-13" remote="github" revision="v-sm6250"/>
+    <project path="vendor/xiaomi/sm6250-common" name="ArrowOS-Devices/android_vendor_xiaomi_sm6250-common" remote="github" revision="arrow-13.0"/>
     <project path="vendor/xiaomi/joyeuse-miuicamera" name="nekoshirro/vendor_xiaomi_joyeuse-miuicamera" remote="gitlab" revision="12.1"/>
 
     <!-- Kernel and Toolchain Repository -->
