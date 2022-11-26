@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="neko-github"
+           fetch="https://github.com/nekoshirro" />
+
+  <remote  name="neko-gitlab"
+           fetch="https://gitlab.com/nekoshirro" />
+
     <!-- Device Repository -->
-    <project path="device/xiaomi/joyeuse" name="nekoshirro/xdroidOSS-13" remote="github" revision="t-joyeuse"/>
-    <project path="device/xiaomi/sm6250-common" name="nekoshirro/xdroidOSS-13" remote="github" revision="t-common"/>
+    <project path="device/xiaomi/joyeuse" name="xdroidOSS-13" remote="neko-github" revision="t-joyeuse"/>
+    <project path="device/xiaomi/sm6250-common" name="xdroidOSS-13" remote="neko-github" revision="t-common"/>
 
     <!-- Vendor Repository -->
-    <project path="vendor/xiaomi/joyeuse" name="nekoshirro/xdroidOSS-13" remote="github" revision="v-joyeuse"/>
+    <project path="vendor/xiaomi/joyeuse" name="xdroidOSS-13" remote="neko-github" revision="v-joyeuse"/>
     <project path="vendor/xiaomi/sm6250-common" name="ArrowOS-Devices/android_vendor_xiaomi_sm6250-common" remote="github" revision="arrow-13.0"/>
-    <project path="vendor/xiaomi/joyeuse-miuicamera" name="nekoshirro/vendor_xiaomi_joyeuse-miuicamera" remote="gitlab" revision="12.1"/>
+    <project path="vendor/xiaomi/joyeuse-miuicamera" name="vendor_xiaomi_joyeuse-miuicamera" remote="neko-gitlab" revision="12.1"/>
 
     <!-- Kernel and Toolchain Repository -->
     <project path="kernel/xiaomi/sm6250" name="nekoshirro/platform_kernel_xiaomi_sm6250" remote="github" revision="main"/>
