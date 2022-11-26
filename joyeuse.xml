@@ -3,7 +3,7 @@
 
     <!-- Device Repository -->
     <project path="device/xiaomi/joyeuse" name="nekoshirro/xdroidOSS-13" remote="github" revision="t-joyeuse"/>
-    <project path="device/xiaomi/sm6250-common" name="nekoshirro/xdroidOSS-13" remote="github" revision="t-sm6250"/>
+    <project path="device/xiaomi/sm6250-common" name="nekoshirro/xdroidOSS-13" remote="github" revision="t-common"/>
 
     <!-- Vendor Repository -->
     <project path="vendor/xiaomi/joyeuse" name="nekoshirro/xdroidOSS-13" remote="github" revision="v-joyeuse"/>
