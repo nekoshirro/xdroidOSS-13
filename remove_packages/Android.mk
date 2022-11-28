@@ -5,11 +5,14 @@ LOCAL_MODULE := RemovePkgs
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
+          AndroidAutoStubPrebuilt \
           arcore \
           AmbientSensePrebuilt \
           AppDirectedSMSService \
           ConnMO \
           CalendarGooglePrebuilt \
+          Chrome \
+          Chrome-Stub \
           Drive \
           DCMO \
           DevicePolicyPrebuilt \
@@ -41,9 +44,10 @@ LOCAL_OVERRIDES_PACKAGES := \
           USCCDM \
           VZWAPNLib \
           VzwOmaTrigger \
+          Velvet \
           WallpapersBReel2020 \
           YouTube \
-          YouTubeMusicPrebuilt 
+          YouTubeMusicPrebuilt
 
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := platform

@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_miatoll.mk
+    $(LOCAL_DIR)/xdroid_joyeuse.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_miatoll-user \
-    aosp_miatoll-userdebug \
-    aosp_miatoll-eng
+    xdroid_joyeuse-user \
+    xdroid_joyeuse-userdebug \
+    xdroid_joyeuse-eng
