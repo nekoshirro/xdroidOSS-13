@@ -13,7 +13,7 @@
 
     <!-- Vendor Repository -->
     <project path="vendor/xiaomi/joyeuse" name="xdroidOSS-13" remote="neko-github" revision="v-joyeuse"/>
-    <project path="vendor/xiaomi/joyeuse-miuicamera" name="vendor_xiaomi_joyeuse-miuicamera" remote="neko-gitlab" revision="12.1"/>
+    <project path="vendor/xiaomi/joyeuse-miuicamera" name="vendor_xiaomi_joyeuse-miuicamera" remote="neko-gitlab" revision="xdroid"/>
     <project path="vendor/xiaomi/sm6250-common" name="ProjectElixir-Devices/vendor_xiaomi_sm6250-common" remote="github" revision="13"/>
 
     <!-- Kernel and Toolchain Repository -->
